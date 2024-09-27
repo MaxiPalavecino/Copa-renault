@@ -1,0 +1,62 @@
+#titulo-cant {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#text-cant {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#cuerpo-cant {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/012/964/928/original/abstract-background-with-yellow-waves-black-background-desktop-wallpaper-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.card {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10px;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+#content-cant {
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
