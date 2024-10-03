@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-yellow {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-title {
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.gender-selection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.gender-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-yellow {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}

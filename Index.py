@@ -10,5 +10,9 @@ def principal():
 def Cantina():
     return render_template('Cantina.html')
 
+@app.route('/Fixture')
+def Fixture():
+    return render_template('Fixture.html')
+
 if __name__ == '__main__':
     app.run(debug=True, port=3500)
