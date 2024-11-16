@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa Renault - Fixtures</title>
+    <link rel="stylesheet" href="static\Fixtures.css">
+    <script>
+        function openPdf(pdfUrl) {
+            window.open(pdfUrl, 'pdfPopUp', 'width=800,height=600,scrollbars=yes');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div id="navbar">
+                <a href="\Cantina" class="link">Cantina</a>
+                <a href="\" class="link">Inicio</a>
+                <a href="\Inscripcion" class="link">Inscripción</a>
+            </div>
+        </nav>
+        <div class="header">
+            <img src="static\img\title.png" alt="Copa Renault Title" class="header-img">
+        </div>
+        <h2 class="fixtures-title">FIXTURES</h2>
+
+        <div class="fixtures">
+            <div class="row">
+                <div class="box group-box" style="margin-top: 10px">FEMENINO</div>
+            </div>
+            <div class="row">
+                <div class="box">MAYOR</div>
+                <div class="box">MENOR</div>
+            </div>
+            <div class="row">
+                <div class="box button" onclick="openPdf('fixtures_futbol_femenino_mayor.pdf')">FÚTBOL</div>
+                <div class="box button" onclick="openPdf('fixtures_futbol_femenino_menor.pdf')">FÚTBOL</div>
+            </div>
+            <div class="row">
+                <div class="box button" onclick="openPdf('fixtures_voley_femenino_mayor.pdf')">VOLEY</div>
+                <div class="box button" onclick="openPdf('fixtures_voley_femenino_menor.pdf')">VOLEY</div>
+            </div>
+
+            <div class="row" style="margin-top: 20px">
+                <div class="box group-box">MASCULINO</div>
+            </div>
+            <div class="row">
+                <div class="box">MAYOR</div>
+                <div class="box">MENOR</div>
+            </div>
+            <div class="row">
+                <div class="box button" onclick="openPdf('fixtures_futbol_masculino_mayor.pdf')">FÚTBOL</div>
+                <div class="box button" onclick="openPdf('fixtures_futbol_masculino_menor.pdf')">FÚTBOL</div>
+            </div>
+            <div class="row">
+                <div class="box button" onclick="openPdf('fixtures_voley_masculino_mayor.pdf')">VOLEY</div>
+                <div class="box button" onclick="openPdf('fixtures_voley_masculino_menor.pdf')">VOLEY</div>
+            </div>
+
+            <div class="single-box button" style="margin-top: 20px" onclick="openPdf('fixtures_basket.pdf')">BASKET</div>
+        </div>
+        <div class="footer">
+            <a href="https://www.instagram.com/coparenault/" class="link">Instagram</a>
+            <a href="\Inscripcion" class="link">Inscribirse</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -48,31 +48,59 @@ body {
     padding: 15px;
 }
 
-.sponsors-title {
+.fixtures-title {
     font-weight: normal !important; 
-    margin-bottom: 20px;
 }
 
-.sponsors h2 {
-    font-size: 18px;
-    margin: 20px 0;
-    color: #333;
-}
-
-.sponsor-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+.fixtures {
     padding: 0 20px;
 }
 
-.sponsor-box {
-    border: 1px solid #ddd;
-    padding: 20px;
-    font-size: 12px;
+.section-title {
+    font-size: 16px;
+    margin: 10px 0;
     color: #333;
-    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 48%;
     border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.single-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.group-box {
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
 }
 
 .footer {

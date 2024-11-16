@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -48,9 +48,60 @@ body {
     padding: 15px;
 }
 
-.sponsors-title {
-    font-weight: normal !important; 
+.banner img {
+    width: 90%;
+    height: auto;
     margin-bottom: 20px;
+}
+
+.deporte {
+    border: 1px solid #ddd;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.deporte-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    writing-mode: vertical-rl;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+
+.fixtures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 48%;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
 }
 
 .sponsors h2 {
@@ -73,6 +124,21 @@ body {
     color: #333;
     text-align: center;
     border-radius: 5px;
+}
+
+.view-more {
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.view-more:hover {
+    background-color: #e0e0e0;
 }
 
 .footer {

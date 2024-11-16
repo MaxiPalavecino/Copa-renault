@@ -48,31 +48,14 @@ body {
     padding: 15px;
 }
 
-.sponsors-title {
+.mapa-title {
     font-weight: normal !important; 
-    margin-bottom: 20px;
 }
 
-.sponsors h2 {
-    font-size: 18px;
-    margin: 20px 0;
-    color: #333;
-}
-
-.sponsor-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 0 20px;
-}
-
-.sponsor-box {
-    border: 1px solid #ddd;
-    padding: 20px;
-    font-size: 12px;
-    color: #333;
-    text-align: center;
-    border-radius: 5px;
+.banner img {
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
 }
 
 .footer {

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa Renault</title>
+    <link rel="stylesheet" href="static/Inicio.css">
+    <script>
+        function openPdf(pdfUrl) {
+            window.open(pdfUrl, 'pdfPopUp', 'width=800,height=600,scrollbars=yes');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div id="navbar">
+                <a href="\Cantina" class="link">Cantina</a>
+                <a href="\Inscripcion" class="link">Inscripción</a>
+                <a href="\Fixtures" class="link">Fixtures</a>
+            </div>
+        </nav>
+        <div class="header">
+            <img src="static\img\title.png" alt="Copa Renault Title" class="header-img">
+        </div>
+        
+        <div class="banner">
+            <img src="static\img\copa.jpg" alt="Banner">
+        </div>
+
+        <div class="deporte">
+            <div class="deporte-title">FÚTBOL</div>
+            <div class="fixtures">
+                <button class="button" onclick="window.location.href='/Inscripcion';">INSCRIBIRSE</button>
+                <button class="button" onclick="window.location.href='/Mapa';">MAPA</button>
+                <div class="box     button" onclick="openPdf('reglamento_futbol.pdf')">REGLAMENTO</div>
+            </div>
+        </div>
+
+        <div class="deporte">
+            <div class="deporte-title">VOLEY</div>
+            <div class="fixtures">
+                <button class="button" onclick="window.location.href='/Inscripcion';">INSCRIBIRSE</button>
+                <button class="button" onclick="window.location.href='/Mapa';">MAPA</button>
+                <div class="box button" onclick="openPdf('reglamento_voley.pdf')">REGLAMENTO</div>
+            </div>
+        </div>
+
+        <div class="deporte">
+            <div class="deporte-title">BASKET</div>
+            <div class="fixtures">
+                <button class="button" onclick="window.location.href='/Inscripcion';">INSCRIBIRSE</button>
+                <button class="button" onclick="window.location.href='/Mapa';">MAPA</button>
+                <div class="box button" onclick="openPdf('reglamento_basket.pdf')">REGLAMENTO</div>
+            </div>
+        </div>
+
+        <div class="sponsors">
+            <h2>SPONSORS</h2>
+            <div class="sponsor-grid">
+                <div class="sponsor-box">FOTO SPONSOR</div>
+                <div class="sponsor-box">FOTO SPONSOR</div>
+                <div class="sponsor-box">FOTO SPONSOR</div>
+                <div class="sponsor-box">FOTO SPONSOR</div>
+                <div class="sponsor-box">FOTO SPONSOR</div>
+                <div class="sponsor-box">FOTO SPONSOR</div>
+                <div class="sponsor-box">FOTO SPONSOR</div>
+                <div class="sponsor-box">FOTO SPONSOR</div>
+                <div class="sponsor-box">FOTO SPONSOR</div>
+            </div>
+            <button class="button" onclick="window.location.href='/Sponsors';">VER TODOS LOS SPONSORS</button>
+        </div>
+        <div class="footer">
+            <a href="https://www.instagram.com/coparenault/" class="link">Instagram</a>
+            <a href="\Inscripcion" class="link">Inscribirse</a>
+        </div>
+    </div>
+</body>
+</html>
