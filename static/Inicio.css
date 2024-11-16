@@ -118,11 +118,13 @@ body {
 }
 
 .sponsor-box {
+    aspect-ratio: 1 / 1;
     border: 1px solid #ddd;
     padding: 20px;
     font-size: 12px;
     color: #333;
     text-align: center;
+    align-content: center;
     border-radius: 5px;
 }
 

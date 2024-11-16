@@ -10,9 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f4f4f4;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .navbar {
@@ -51,28 +48,84 @@ body {
 .sponsors-title {
     font-weight: normal !important; 
     margin-bottom: 20px;
-}
-
-.sponsors h2 {
-    font-size: 18px;
-    margin: 20px 0;
+    font-size: 20px;
     color: #333;
 }
 
 .sponsor-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 0 20px;
+    gap: 10px; 
+    width: 100%; 
+    padding: 10px;
 }
 
-.sponsor-box {
+.sponsor-grid.large {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.sponsor-grid.large .sponsor-box {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
     border: 1px solid #ddd;
-    padding: 20px;
-    font-size: 12px;
-    color: #333;
     text-align: center;
+    align-content: center;
     border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sponsor-grid.large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sponsor-grid.medium {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.sponsor-grid.medium .sponsor-box {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sponsor-grid.medium img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sponsor-grid.small {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.sponsor-grid.small .sponsor-box {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sponsor-grid.small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .footer {
